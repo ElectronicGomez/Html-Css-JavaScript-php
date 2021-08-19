@@ -1,0 +1,53 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+h1{
+	color:red;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+h2{
+	text-align: center;
+	color:red;
+	margin-top: 20px;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width:600px;
+	margin-top:20px;
+}
+
+#respuesta{
+	border: 1px solid black;
+	/*display: none;*/
+	width: 100%;
+}
+
+table tr{
+	font-size:20px;
+	font-family: helvetica;
+}
+
+td{
+	width:50%;
+	padding:5px;
+}
+
+button{
+	width:100%;
+	font-family: helvetica;
+	font-size: 20px;
+	margin-top:10px;
+}
+
+input{
+	font-size: 20px;
+	font-family: helvetica;
+	width:100%;
+}

@@ -1,0 +1,93 @@
+/*Clase del título para que se centre y tenga color azul*/
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.titulo{
+	color:green;
+	font-size: 34px;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 20px;
+}
+/*Selector de imagen para que todas los logos tengan la misma dimensión*/
+img{
+	height: auto;
+	width: 80px;
+
+}
+/*Clase para el contenedor de las fotos*/
+.contenedor{
+	height: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: orange;*/
+	position: relative;
+	margin-top:20px;
+	padding: 5px;
+	box-sizing: border-box; /*El ancho del contenedor incluye el padding y borde*/
+	
+}
+/*Clase de cada div ubicado en una fila*/
+#fila1{
+	/*margin: 0px auto;*/
+	/*top:10px;*/
+	margin-top: 10px;
+	left:45%;
+	position: absolute;
+	
+}
+#fila2{
+	margin-top: 120px;
+	left:45%;
+	position: absolute;	
+}
+#fila3{
+	margin-top: 230px;
+	left:45%;
+	position: absolute;	
+	
+}
+
+#fila4{
+	margin-top: 340px;
+	left:45%;
+	position: absolute;	
+}
+#fila5{
+	margin-top: 450px;
+	left:45%;
+	position: absolute;	
+}
+
+#col1{
+	position:absolute;
+	margin-top: 230px;
+	margin-left:15%;
+}
+
+#col2{
+	position:absolute;
+	margin-top: 230px;
+	margin-left:30%;	
+}
+
+#col4{
+	position:absolute;
+	margin-top: 230px;
+	margin-left:60%;	
+}
+
+#col5{
+	position:absolute;
+	margin-top: 230px;
+	margin-left:75%;	
+}
+
+@media (min-width: 1200px){
+	.titulo{
+		color:red;
+	}
+}

@@ -1,0 +1,36 @@
+.titulo{
+	margin-top:20px;
+}
+
+.notas{
+	margin-top: 20px;
+	/*background-color: yellow;*/
+	width: 30%;
+	display:flex;
+	margin-left:30%;
+	align-content: space-around;
+}
+
+.resultado{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20px;
+}
+
+button{
+	margin-top:10px;
+	width: 100%;
+}
+
+table{
+	width: 50%;
+	text-align: center;
+}
+
+input{
+	width: 100%;
+}
+
+table tr td{
+	background-color: 
+}

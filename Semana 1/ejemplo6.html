@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario de entrada</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo6.css">
+    </head>
+    <body>
+        <h1>Datos del estudiante de SOTR 2020-2</h1>
+        <div>
+            <form action="ejemplo6b.html">
+                <table>
+                    <tr>
+                        <td><label for="usuario">C&oacute;digo:</label></td>
+                        <td><input type="text" id="usuario"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nombre">Nombre:</label></td>
+                        <td><input type="text" id="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellidop">Apellido paterno:</label></td>
+                        <td><input type="text" id="apellidop"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellidom">Apellido materno:</label></td>
+                        <td><input type="text" id="apellidom"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fecha_nac">Fecha de nacimiento:</label></td>
+                        <td><input type="date" id="fecha_nac"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sexo">Sexo:</label></td>
+                        <td>Femenino  <input type="radio" name="genero" value="femenino" checked="true">
+                            <br>
+                            Masculino <input type="radio" name="genero" value="Masculino">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="carrera">Carrera:</label></td>
+                        <td>
+                            <select name="lista" form="carrera">
+                                <option value="elec">Ing. Electr&oacute;nica</option>
+                                <option value="tele">Ing. Telecomunicaciones</option>
+                                <option value="meca">Ing. Mecatr&oacute;nica</option>
+                            </select> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PC1</td>
+                        <td>LB1</td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min="0" max="20"></td>
+                        <td><input type="number" min="0" max="20"></td>
+                    </tr>
+                    <tr>
+                        <td>EA</td>
+                        <td>PC2</td>
+                    </tr>
+                    <tr> 
+                        <td><input type="number" min="0" max="20"></td>
+                        <td><input type="number" min="0" max="20"></td>
+                    </tr>
+                    <tr>
+                        <td>LB2</td>
+                        <td>ED</td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min="0" max="20"></td>
+                        <td><input type="number" min="0" max="20"></td>
+                    </tr> 
+                    <tr>
+                        <td>TF</td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min="0" max="20"></td>
+                    </tr>
+                </table>
+                        
+            <input type="submit" value ="Ingresar" class="boton">
+        </form>
+        </div>
+        <footer>
+            <p>
+                Recomendaci&oacute;n: todos las cajas de texto son Tags input
+                de diferente Type. Utilice una tabla para ordenar los 
+                elementos en filas y columnas.
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+h1{
+    color: red;
+    text-decoration: underline;
+    text-align:center;
+}
+
+h3{
+    text-align: center;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.contenedor{
+    background-color:lightblue;
+    width:90%;
+    height:auto;/*La altura se adaptará al contenido*/
+    border: 1.5px solid black;
+    margin:0;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    display:flex; /*Hace que los elementos se presenten en secuencia por fila*/
+    justify-content: space-around;/*Los elementos se separan en espacios equidistantes*/
+}
+
+table{
+    width:30%;
+    height: 200px;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div img{
+    float:left;
+    margin: 10px;
+    border: 1px solid rgb(0,0,0);
+    border-radius: 5px;
+    width:40%;
+}
+
+div p{
+    width:50%;
+    bottom: 10px;
+    float:left;
+    top: 10px;
+    font-weight: bold;
+    color:#000;
+    text-align: justify;
+    margin: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

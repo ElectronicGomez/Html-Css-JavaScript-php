@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+h1{
+    text-align:  center;
+    color: red;
+    font-family: Arial;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+div{
+    border: 2px solid #000;
+    position: relative;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+table{
+    text-align:center;
+    width: 100%
+}
+
+table>tr{
+    width: 30%;
+}
+table tr td{
+    font-family: Arial;
+    padding:5px;
+    font-size: 1.2em;
+
+}
+
+form{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+form table tr td input{
+   width:100%;
+
+}
+
+
+.boton{
+    background-color: gray;
+    width:30%;
+    height:auto;
+    font-size: 16px;
+    margin-top:10px;
+    margin-left:40%;
+    margin-right:60%;
+}
+
+p{
+    font-size:1.6em;
+    width:40%;
+    text-align:justify;
+    margin-left:30%;
+    margin-top:20px;
+}
+
+h2,h3,h4{
+    color: darkred;
+    text-align: center;
+    font-family: Arial;
+    
+}
+
+a{
+    font-size:18px;
+    margin-left:50%;
+    
+}

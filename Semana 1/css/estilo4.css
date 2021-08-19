@@ -1,0 +1,53 @@
+body{
+    background: lightblue;
+    background-image: url("../img/samay.png");
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: green;
+    width:60%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.contenedor{
+    
+    width:40%;
+    display:flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+.izquierda{
+    width:40%;
+    padding-top: 10px;
+}
+
+.derecha{
+    width:40%;
+    padding-top: 10px;
+}
+label{
+    padding-top:10px;
+    padding-bottom: 5px;
+    font-family: Helvetica;
+}
+div ul{
+    list-style-type:decimal;  /*Elimina las viñetas a la izquierda*/
+    /*display:inline-block;*/
+    /*list-style-type: none;*/
+}
+
+li:hover{
+  background-color: #000;
+  color: #fff;
+ 
+}
+
+li{
+    font-family: Helvetica;
+    font-size:18px;
+    cursor: pointer;
+    
+}

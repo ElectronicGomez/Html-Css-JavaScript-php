@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Navbar para control de opciones</title>
+        <!--Se necesita este enlace para que funcione el Navbar de Boostrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  		<script src="js/jquery-3.5.1.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/Ejercicio5.js"></script>
+    </head>
+    <body>
+    	<nav class="navbar navbar-inverse">
+  			<div class="container-fluid">
+    			<div class="navbar-header">
+     				<a class="navbar-brand" href="#">Gesti&oacute;n de horarios UPC</a>
+	   			</div>
+    			<ul class="nav navbar-nav">
+			      	<li class="active"><a href="#">Home</a></li>
+			      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Mi informaci&oacute;n<span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+          				<li><a href="#">Mi horario actual</a></li>
+				        <li><a href="#" id="disponibilidad">Insertar mi disponibilidad</a></li>
+				        <li><a href="#">Horarios anteriores</a></li>
+        			</ul>
+      				</li>
+      				<li><a  id="clave" href="#">Cambiar contrase&ntilde;a</a></li>
+    			</ul>
+    			<ul class="nav navbar-nav navbar-right">
+      				<li><a href="#"><span class="glyphicon glyphicon-user"></span>    Bienvenido Juan Perez</a></li>
+      				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Cerrar sesi&oacute;n</a></li>
+    			</ul>
+  			</div>
+		</nav>
+	<div class="container" id="bloque1">
+  		<h3>Nota importante</h3>
+  		<p>El inicio de clases ser&aacute; este lunes 17 de agosto</p>
+	</div>
+	<div class="container" id="bloque2">
+  		<h2>Cambio de contrase&ntilde;a</h2>
+  		<form action="bootstrap5.html">
+    		<div class="form-group">
+      			<label for="email">Contrase&ntilde;a actual:</label>
+      			<input type="password" class="form-control" id="email" placeholder="Ingrese la clave actual" name="email">
+    		</div>
+    		<div class="form-group">
+      			<label for="pwd">Nueva contrase&ntilde;a:</label>
+      			<input type="password" class="form-control" id="pwd" placeholder="Ingrese la nueva clave" name="pwd">
+    		</div>
+    		<div class="form-group">
+      			<label for="pwd">Repita la nueva contrase&ntilde;a:</label>
+      			<input type="password" class="form-control" id="pwd" placeholder="Repita la nueva clave" name="pwd">
+    		</div>
+		    <div class="checkbox">
+		      <label><input type="checkbox" name="remember"> Recordar la clave</label>
+		    </div>
+		    <button type="submit" class="btn btn-default">Modificar</button>
+  		</form>
+	</div>
+	<div class="container" id="bloque3" style="background: yellow;">
+		<h2>Mi disponibilidad horaria</h2>
+		<h4>Haga click sobre cada horario para cambiarlo</h4>
+		<div class="row">
+			<div class="col-sm-2"><h4 class="center"><b>Horario</b></h4></div>
+			<div class="col-sm-1"><h4 class="center"><b>Lunes</b></h4></div>
+			<div class="col-sm-1"><h4 class="center"><b>Martes</b></h4></div>
+			<div class="col-sm-1"><h4 class="center"><b>Mi&eacute;rcoles</b></h4></div>
+			<div class="col-sm-1"><h4 class="center"><b>Jueves</b></h4></div>
+			<div class="col-sm-1"><h4 class="center"><b>Viernes</b></h4></div>
+			<div class="col-sm-1"><h4 class="center"><b>S&aacute;bado</b></h4></div>
+			<div class="col-sm-1"><h4 class="center"><b>Domingo</b></h4></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"><h4 class="center">07:00 - 08:00</h4></div>
+			<div class="col-sm-1"><h4 id="L78" class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Descanso</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"><h4 class="center">08:00 - 09:00</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Descanso</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"><h4 class="center">09:00 - 10:00</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Descanso</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"><h4 class="center">10:00 - 11:00</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Descanso</h4></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2"><h4 class="center">11:00 - 12:00</h4></div>
+			<div class="col-sm-1"><h4 class="center">Ocupado</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">San Miguel</h4></div>
+			<div class="col-sm-1"><h4 class="center">Monterrico</h4></div>
+			<div class="col-sm-1"><h4 class="center">Descanso</h4></div>
+		</div>
+			
+	</div>
+ </body>
+</html>

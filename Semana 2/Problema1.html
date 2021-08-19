@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Promedio de notas</title>
+    <link rel="stylesheet" type="text/css" href="css/Problema1.css">
+    <script type="text/javascript" src="js/Problema1.js"></script>
+</head>
+	<body onload="iniciar()">
+		<div class = "titulo">
+			<img src="img/upc.png"><h1>C&aacute;lculo del promedio final del curso SOTR de la UPC</h1>
+		</div>
+		<div class="notas">
+			<table>
+				<tr>
+					<td>PC1:</td>
+					<td><input type="number" id="PC1" min="0" max="20"></td>
+				</tr>
+				<tr>
+					<td>LB1:</td>
+					<td><input type="number" id="LB1" min="0" max="20"></td>
+				</tr>
+				<tr>
+					<td>EA:</td>
+					<td><input type="number" id="EA" min="0" max="20"></td>
+				</tr>
+				<tr>
+					<td>PC2:</td>
+					<td><input type="number" id="PC2" min="0" max="20"></td>
+				</tr>
+				<tr>
+					<td>LB2:</td>
+					<td><input type="number" id="LB2" min="0" max="20"></td>
+				</tr>
+				<tr>
+					<td>DD:</td>
+					<td><input type="number" id="DD" min="0" max="20"></td>
+				</tr>
+				<tr>
+					<td>TF:</td>
+					<td><input type="number" id="TF" min="0" max="20"></td>
+				</tr>
+				<tr>
+					<td><button id="enviar" onclick="calcular()">CALCULAR</button></td>
+					<td><button id="limpiar" onclick="limpiar()">BORRAR</button></td>
+				</tr>
+			</table>
+		</div>
+		<div class = "resultado" id="res_container">
+			<p id="resul">Aqu&iacute; ver&aacute; su promedio final</p>
+		</div>
+	</body>
+</html>

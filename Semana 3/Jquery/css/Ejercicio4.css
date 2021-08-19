@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background: white;
+}
+h1{
+    text-align:  center;
+    color: red;
+    text-decoration-line:underline;
+}
+h2{
+    text-align:left;
+    color: red;
+    margin-left:30%;
+    margin-top: 10px;
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    border-collapse: collapse;
+    border:1.5px solid #000;
+    margin-top:20px;
+}
+
+table tr{
+    font-size: 18px;
+    font-family: Arial;
+    border:1.5px solid #000;
+}
+table tr td{
+    width:auto;
+    padding:5px;
+    border:1.5px solid #000;
+    text-align:center;
+}
+
+table tr th{
+    text-align: center;
+    border:1.5px solid #000;
+}
+
+button{
+    width:300px;
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left:28%;
+    margin-right:auto;
+}

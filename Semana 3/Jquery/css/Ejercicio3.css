@@ -1,0 +1,42 @@
+body{
+    background: white;
+}
+h1{
+    text-align:  center;
+    color: red;
+    text-decoration-line:underline;
+}
+h2{
+    text-align:center;
+    color: red;
+}
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+}
+.respuesta{
+    border: 1px solid #ff0000;
+   
+}
+table tr{
+    font-size: 18px;
+    font-family: Arial;
+    
+}
+table tr td{
+    width:50%;
+    padding:5px;
+}
+input{
+    width:100%;
+}
+
+button{
+    width:100%;
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
